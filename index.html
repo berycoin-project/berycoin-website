@@ -72,7 +72,7 @@
                                                 </div>
                                                 <div class="col-sm-6 col-xs-6">
                                                     <div class="btn_left">
-                                                        <a href="" class="btn-primary"><i class="fa fa-comment"></i> Live Chat</a>
+                                                        <div id="MyLiveChatContainer"></div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -496,7 +496,7 @@
                                 </div>
                                 <div class="col-sm-4 col-xs-12">
                                     <div class="single_right_planig">
-                                        <a href="" class="btn btn-primary">Live Chat</a> 
+                                        <div id="MyLiveChatContainer"></div>
                                     </div>
                                 </div>
                             </div>
@@ -527,7 +527,6 @@
                                                 <li><a href="#services">Services</a></li>
                                                 <li><a href="#downloads">Downloads</a></li>
                                                 <li><a href="#contact">Contact</a></li>
-
                                         </ul>
 
                                         <div class="contactwithmap_socail_bookmark">
@@ -612,6 +611,13 @@
                 });
             });
         </script>
+        <script type="text/javascript">function add_chatinline(){var hccid=60193217;var nt=document.createElement("script");nt.async=true;nt.src="https://mylivechat.com/chatinline.aspx?hccid="+hccid;var ct=document.getElementsByTagName("script")[0];ct.parentNode.insertBefore(nt,ct);}
+            add_chatinline(); </script>
+            <!--Chat button will appear here-->
+
+<!--Add the following script at the bottom of the web page (before </body></html>)-->
+<script type="text/javascript">function add_chatbutton(){var hccid=60193217;var nt=document.createElement("script");nt.async=true;nt.src="https://www.mylivechat.com/chatbutton.aspx?hccid="+hccid;var ct=document.getElementsByTagName("script")[0];ct.parentNode.insertBefore(nt,ct);}
+add_chatbutton();</script>
         <script src="assets/js/plugins.js"></script>
         <script src="assets/js/main.js"></script>
 
