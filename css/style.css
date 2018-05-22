@@ -1204,7 +1204,6 @@ form label {
 
 .btn {
   margin-right: 4px;
-  margin-bottom: 4px;
   font-family: "Droid Sans", Arial, sans-serif;
   font-size: 16px;
   font-weight: 400;
@@ -1215,7 +1214,6 @@ form label {
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
-  padding: 8px 30px;
 }
 .btn.btn-md {
   padding: 8px 20px !important;
