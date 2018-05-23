@@ -1001,11 +1001,11 @@ header_top_bar{
     border-radius: 15px;
     opacity: .3;
     position: fixed;
-    bottom: 20px;
+    bottom: 150px;
     right: 25px;
     color: #fff;
     cursor: pointer;
-    background-color: #000;
+    background-color: red;
     z-index: 1000;
     transition: opacity .5s, background-color .5s;
     -moz-transition: opacity .5s, background-color .5s;
